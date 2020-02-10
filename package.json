@@ -1,0 +1,39 @@
+{
+  "name": "react-div-wrapper-hoc",
+  "version": "1.0.0",
+  "description": "skinny-thin component wrapper hoc for atomic design",
+  "main": "lib/main.tsx",
+  "scripts": {
+    "transpile": "babel src --extensions '.ts,.tsx' --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomnack93/react-div-wrapper-hoc.git"
+  },
+  "keywords": [
+    "react",
+    "hoc",
+    "atomicdesign"
+  ],
+  "author": "Tomohiro Nakamura <tnakamura0903@gmail.com> (https://github.com/tomnack93)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomnack93/react-div-wrapper-hoc/issues"
+  },
+  "peerDependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "typescript": "^3.7.5"
+  },
+  "homepage": "https://github.com/tomnack93/react-div-wrapper-hoc#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "@babel/preset-typescript": "^7.8.3",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "typescript": "^3.7.5"
+  }
+}
