@@ -5,7 +5,7 @@ interface StyleProps {
   divClassName?: string;
 }
 
-export const divWrapperHoC = <OriginalProps extends {}>(
+export default <OriginalProps extends {}>(
     WrappedComponent: React.ComponentType<OriginalProps>
   ) => {
     type Props = OriginalProps & StyleProps;

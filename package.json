@@ -2,7 +2,7 @@
   "name": "react-div-wrapper-hoc",
   "version": "1.0.0",
   "description": "skinny-thin component wrapper hoc for atomic design",
-  "main": "lib/main.tsx",
+  "main": "lib/main.js",
   "scripts": {
     "test": "jest",
     "transpile": "babel src --extensions '.ts,.tsx' --out-dir lib"
