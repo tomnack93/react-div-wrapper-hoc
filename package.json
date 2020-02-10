@@ -4,6 +4,7 @@
   "description": "skinny-thin component wrapper hoc for atomic design",
   "main": "lib/main.tsx",
   "scripts": {
+    "test": "jest",
     "transpile": "babel src --extensions '.ts,.tsx' --out-dir lib"
   },
   "repository": {
@@ -26,11 +27,39 @@
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
-    "typescript": "^3.7.5",
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.4",
     "@babel/preset-env": "^7.8.4",
     "@babel/preset-react": "^7.8.3",
-    "@babel/preset-typescript": "^7.8.3"
+    "@babel/preset-typescript": "^7.8.3",
+    "@types/enzyme": "^3.10.5",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
+    "@types/jest": "^25.1.2",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "jest": "^25.1.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "ts-jest": "^25.2.0",
+    "typescript": "^3.7.5"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testMatch": [
+      "**/__tests__/*.test.(ts|tsx)"
+    ],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
   }
 }
